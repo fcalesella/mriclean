@@ -27,7 +27,7 @@ This can be particularly useful if a data correction is needed before the group-
 ## 2. Installation and Data Requirements <a name="Installation"></a>
 The installation with pip is supported:
 ```
-pip install mricleaner
+pip install mriclean
 ```
 
 To be run, the code requires some MRI images (in NIfTI format - .nii or .nii.gz - ) and a confounder.
