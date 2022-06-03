@@ -5,7 +5,7 @@
 1. [Project Overview](#Project_Overview)
 2. [Installation and Data Requirements](#Installation)
 3. [Usage](#Usage)
-   1. [Initialize the ```MRICleaner``` class](#Initialize)
+   1. [Initialize the ```MRIClean``` class](#Initialize)
    2. [Load the data](#Load)
    3. [Remove the effect of the confounder](#Clean)
    4. [Save the Results](#Save)
@@ -34,17 +34,17 @@ To be run, the code requires some MRI images (in NIfTI format - .nii or .nii.gz 
 
 ## 3. Usage <a name="Usage"></a>
 
-### i. Initialize the ```MRICleaner``` class <a name="Initialize"></a>
-The ```MRICleaner``` class requires 1 mandatory and 1 optional parameters to be set as input:
+### i. Initialize the ```MRIClean``` class <a name="Initialize"></a>
+The ```MRIClean``` class requires 1 mandatory and 1 optional parameters to be set as input:
 ```python 
-BrainHabituation(path, mask=None)
+MRIClean(path, mask=None)
 ``` 
 *Parameters*:
 - **path**: is a string indicating the full path to the folder where the NIfTI images are stored
 - **mask** [optional]: is a string indicating the full path to mask, if any
 
 ### ii. Load the data <a name="Load"></a>
-The ```load``` method allows to load all the images and arraneg them in a data matrix (subjects x voxels). If the path to a mask was passed to ```MRICleaner```, then the matrix will contain only the voxels in the mask.
+The ```load``` method allows to load all the images and arraneg them in a data matrix (subjects x voxels). If the path to a mask was passed to ```MRIClean```, then the matrix will contain only the voxels in the mask.
 ```python 
 load()
 ``` 
