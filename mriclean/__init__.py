@@ -11,5 +11,3 @@ Created on Fri Jun  3 17:15:00 2022
         Via Stamira d'Ancona 20, 20127, Milano, Italy
         E-mail: f.calesella@studenti.unisr.it
 """
-
-from mriclean import MRIClean
