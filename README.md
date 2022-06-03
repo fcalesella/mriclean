@@ -1,4 +1,4 @@
-# MRICleaner
+# MRIClean
  Confounder removal for neuroimaging data
 
 ## Table of Contents
