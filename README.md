@@ -25,9 +25,9 @@ where $X_j corr$ is the voxel j corrected, $X_j$ is the uncorrected voxel j, $C$
 This can be particularly useful if a data correction is needed before the group-analyses .
 
 ## 2. Installation and Data Requirements <a name="Installation"></a>
-The installation with pip is supported:
+Download the repository, and run pip on the zip folder
 ```
-pip install mriclean
+pip install /path/to/the/zip/file.zip
 ```
 
 To be run, the code requires some MRI images (in NIfTI format - .nii or .nii.gz - ) and a confounder.
